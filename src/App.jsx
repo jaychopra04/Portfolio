@@ -22,7 +22,7 @@ const App = () => {
           <Route path='Class-12' element = {<><Class_12 /></>}/>
           <Route path='Certifications' element = {<Certifications />}/>
           <Route path='Courses' element = {<><Courses /></>}/>
-          <Route element = {<><PageNotFound /></>}/>
+          <Route path='*' element = {<><PageNotFound /></>}/>
          
         </Routes>  
     </BrowserRouter>
