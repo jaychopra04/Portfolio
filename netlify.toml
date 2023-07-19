@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "/src/404PageNotFound/PageNotFound"
-  status = 404
