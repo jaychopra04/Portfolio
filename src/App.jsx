@@ -9,11 +9,13 @@ import Academics from './Academics/Academics';
 import Class_10 from './Class-10/Class-10';
 import Class_12 from './Class-12/Class-12';
 import PageNotFound from './404PageNotFound/PageNotFound';
-
+import ScrollToTop from './ScrollToTop';
 
 const App = () => {
   return (
-    <BrowserRouter>     
+   
+    <BrowserRouter>   
+       <ScrollToTop />
         <Routes>
           <Route path = "/" element = {<><Home /><Footer /></>} />
           <Route path = "Badges" element = {<><Badges /></>} />     
@@ -22,9 +24,8 @@ const App = () => {
           <Route path='Class-12' element = {<><Class_12 /></>}/>
           <Route path='Certifications' element = {<Certifications />}/>
           <Route path='Courses' element = {<><Courses /></>}/>
-          <Route path='*' element = {<><PageNotFound /></>}/>
-         
-        </Routes>  
+          <Route path='*' element = {<><PageNotFound /></>}/>         
+        </Routes>         
     </BrowserRouter>
   );
 }
