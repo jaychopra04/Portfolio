@@ -1,23 +1,34 @@
 import "./PageNotFound.css";
 import { Link } from "react-router-dom";
-import { Parallax } from "react-parallax";
-//import React, { useRef, useEffect } from 'react';
-//import Parallax from 'parallax-js'; // Import the Parallax library
+//import { Parallax } from "react-parallax";
+
+import React, { useEffect } from 'react';
+import Parallax from 'parallax-js'; // Import the Parallax library
 
 function PageNotFound() {
-  // var scene = document.getElementById("scene");
-  // var parallaxInstance = new Parallax(scene);
+  useEffect(() => {
+    // First line of code: Get the element by id
+    const scene = document.getElementById('scene');
+
+    // Second line of code: Create a Parallax instance
+    const parallaxInstance = new Parallax(scene);
+
+    // Clean up the Parallax instance on component unmount
+    return () => {
+      parallaxInstance.disable();
+    };
+  }, []);
+  
+  
 
 
   return (
-    // var scene = document.getElementById("scene");
-    //   var parallaxInstance = new Parallax(scene);
 
     <div>
       <title>404 Page Not Found</title>
       <section className="wrapper">
         <div className="container">
-          <div id="scene" className="scene" data-hover-only="false">
+          <div id="scene" className="scene" data-hover-only="true">
             <div className="circle" data-depth="1.2" />
             <div className="one" data-depth="0.9">
               <div className="content">
