@@ -26,7 +26,7 @@ const Footer = () => {
           color: "#ffd600",
           fontStyle: "italic",
           fontSize: 9,
-          marginTop: "-15px",
+          marginTop: "-12px",
         }}
       >
         A CLASS OF ITS OWN
