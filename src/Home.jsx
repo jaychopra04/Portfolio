@@ -34,27 +34,6 @@ function Home() {
       id="page-top"
       style={{ background: "rgb(0,0,0)" }}
     >
-      <div className="loader">
-        <ul>
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-        </ul>
-      </div>
-      <div className="bubbles_wrap">
-        <div className="bubble x1" />
-        <div className="bubble x2" />
-        <div className="bubble x3" />
-        <div className="bubble x4" />
-        <div className="bubble x5" />
-        <div className="bubble x6" />
-        <div className="bubble x7" />
-        <div className="bubble x8" />
-        <div className="bubble x9" />
-        <div className="bubble x10" />
-      </div>
       <nav
         className="navbar navbar-dark navbar-expand-lg fixed-top bg-dark"
         id="mainNav"
