@@ -14,6 +14,7 @@ function Class12() {
           background: "Rgba(255, 255, 255, 0.25)",
           borderRadius: "15PX",
           border: "1px solid rgba( 255, 255, 255, 0.18 )",
+          padding: 0,
         }}
       >
         <div className="container" style={{ marginTop: 20 }}>
@@ -23,6 +24,8 @@ function Class12() {
               background: "rgba(255, 255, 255, 0)",
               textAlign: "center",
               fontSize: 18,
+              paddingLeft: 0,
+              paddingRight: 0,
             }}
           >
             <h1

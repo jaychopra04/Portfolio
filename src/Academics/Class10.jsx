@@ -15,9 +15,10 @@ function Class10() {
           background: "Rgba(255, 255, 255, 0.25)",
           borderRadius: "15PX",
           border: "1px solid rgba( 255, 255, 255, 0.18 )",
+          padding: "0px",
         }}
       >
-        <div className="container" style={{ marginTop: 20 }}>
+        <div className="container" style={{ marginTop: 20, padding: "0px" }}>
           <div
             className="jumbotron"
             style={{
