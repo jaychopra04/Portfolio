@@ -2,6 +2,7 @@ import React from "react";
 
 function Class10() {
   return (
+
     <div
       style={{
         padding: "25PX",
@@ -128,6 +129,7 @@ function Class10() {
         </div>
       </div>
     </div>
+
   );
 }
 

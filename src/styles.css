@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* The custom cursor shape and size */
+.custom-cursor {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.5); /* Custom cursor color and opacity */
+    mix-blend-mode: difference; /* Optional blending mode for better visibility */
+    z-index: 9999; /* Ensure the cursor stays on top */
+    transition: transform 0.1s ease-out; /* Smooth transition for cursor movement */
+  }
+  
+  /* Animation for cursor lighting effect */
+  @keyframes lighting {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
