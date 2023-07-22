@@ -57,7 +57,7 @@ const TicTacToeGame = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        marginTop: '80px',
+        marginTop: '60px',
         
       }}
     >
