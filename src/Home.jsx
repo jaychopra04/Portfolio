@@ -150,9 +150,8 @@ function Home() {
                     fontFamily: "Montserrat, sans-serif",
                   }}
                 >
-                  Jay Chopra is an Engineer Specialized in Information &amp;
-                  Communication Technology. He is a co-author, Python programmer
-                  and a Developer.
+                  I am an Engineer Specialized in Information &amp;
+                  Communication Technology. I code in C#, JavaScript &amp; Python. I am a Cloud Enthusiast and always passionate about Financial Markets.
                 </p>
                 <ul
                   className="list-inline social-buttons"
