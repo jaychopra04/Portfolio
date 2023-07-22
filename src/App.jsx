@@ -10,14 +10,14 @@ import Class_10 from './Class-10/Class-10';
 import Class_12 from './Class-12/Class-12';
 import PageNotFound from './404PageNotFound/PageNotFound';
 import ScrollToTop from './ScrollToTop';
-import AnimatedCursor from './AnimatedCursor';
+//import AnimatedCursor from './AnimatedCursor';
 import TicTacToeGame from './TicTacToe';
 
 const App = () => {
   return (
    
     <BrowserRouter>  
-        <AnimatedCursor /> 
+        {/* <AnimatedCursor />  */}
        <ScrollToTop />
         <Routes>
           <Route path = "/" element = {<><Home /><Footer /></>} />
