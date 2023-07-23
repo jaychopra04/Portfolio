@@ -72,7 +72,6 @@ function Home() {
               className="navbar-nav ml-auto text-uppercase"
               style={{ fontSize: 16 }}
             >
-              <li className="nav-item" />
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#education">
                   Education
@@ -97,6 +96,13 @@ function Home() {
                   Resume
                 </a>
               </li>
+              <Link to="TicTacToe">
+              <li className="nav-item" >
+              <a className="nav-link js-scroll-trigger">
+                  X & O
+                </a>
+                </li>
+                </Link>
             </ul>
           </div>
         </div>
