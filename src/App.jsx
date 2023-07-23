@@ -13,6 +13,7 @@ import ScrollToTop from './ScrollToTop';
 //import AnimatedCursor from './AnimatedCursor';
 import TicTacToeGame from './TicTacToe';
 import NavMini from './NavMini';
+import Watch from './Watch';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
         {/* <AnimatedCursor />  */}
        <ScrollToTop />
         <Routes>
-          <Route path = "/" element = {<><Home /><Footer /></>} />
+          <Route path = "/" element = {<><Home /><Watch/><Footer /></>} />
           <Route path = "Badges" element = {<><Badges /></>} />     
           <Route path='Academics' element = {<><Academics /></>}/>
           <Route path='Class-10' element = {<><Class_10 /></>}/>
@@ -29,6 +30,7 @@ const App = () => {
           <Route path='Certifications' element = {<Certifications />}/>
           <Route path='Courses' element = {<><Courses /></>}/>
           <Route path='TicTacToe' element = {<><NavMini /><TicTacToeGame /></>}/>
+          <Route path='Watch' element = {<><Watch /></>}/>
           <Route path='*' element = {<><PageNotFound /></>}/>         
         </Routes>         
     </BrowserRouter>
