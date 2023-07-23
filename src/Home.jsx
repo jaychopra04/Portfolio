@@ -48,7 +48,7 @@ function Home() {
             className="navbar-brand"
             data-bss-hover-animate="pulse"
             style={{ fontSize: "25PX", color: "#FFFFFF" }}
-          
+            href="https://jaychopra.in"
             aria-label="Jay Chopra"
           >Jay Chopra
 
