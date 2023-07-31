@@ -14,8 +14,13 @@ import ScrollToTop from './ScrollToTop';
 import TicTacToeGame from './TicTacToe';
 import NavMini from './NavMini';
 import Watch from './Watch';
+import NoInternetPage from './NoConnection';
+
+
+
 
 const App = () => {
+
   return (
    
     <BrowserRouter>  
@@ -31,7 +36,8 @@ const App = () => {
           <Route path='Courses' element = {<><Courses /></>}/>
           <Route path='TicTacToe' element = {<><NavMini /><TicTacToeGame /></>}/>
           <Route path='Watch' element = {<><Watch /></>}/>
-          <Route path='*' element = {<><PageNotFound /></>}/>         
+          <Route path='*' element = {<><PageNotFound /></>}/> 
+          <Route path='NoConnection' element = {<><NoInternetPage/></>} />  
         </Routes>         
     </BrowserRouter>
   );
