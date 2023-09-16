@@ -448,7 +448,7 @@ function Home() {
                   borderLeftColor: "var(--orange)",
                 }}
               >
-                <span>Grade : 9.7 CGPA</span>
+                <span>Grade : 9.7 CGPA &#x2728;</span>
               </li>
               <li
                 className="list-group-item"
@@ -508,7 +508,7 @@ function Home() {
                   borderLeftColor: "var(--orange)",
                 }}
               >
-                <span>Web Developer</span>
+                <span>Developer &#x1F60E;</span>
               </li>
             </ul>
             <p>
