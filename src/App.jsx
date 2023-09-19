@@ -14,6 +14,7 @@ import ScrollToTop from './ScrollToTop';
 import TicTacToeGame from './TicTacToe';
 import NavMini from './NavMini';
 import Watch from './Watch';
+import TypingText from './paryushan';
 
 const App = () => {
   return (
@@ -31,7 +32,9 @@ const App = () => {
           <Route path='Courses' element = {<><Courses /></>}/>
           <Route path='TicTacToe' element = {<><NavMini /><TicTacToeGame /></>}/>
           <Route path='Watch' element = {<><Watch /></>}/>
-          <Route path='*' element = {<><PageNotFound /></>}/>         
+          <Route path='jain' element = {<><TypingText /></>}/>
+          <Route path='*' element = {<><PageNotFound /></>}/>  
+
         </Routes>         
     </BrowserRouter>
   );
