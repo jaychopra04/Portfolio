@@ -730,7 +730,7 @@ function Home() {
               <div className="text-center" style={{ padding: "5vw" }}>
                 <h1 style={{ fontSize: 22 }}>CTRM Associate</h1>
                 <p style={{ fontSize: 15 }}>
-                  C/ETRM Foundational System &amp; Business Solution Development
+                  Allegro Techincal Consultant, expertise in power and proficient in crude oil & NG.
                 </p>
                 <div>
                   <button
